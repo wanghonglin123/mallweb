@@ -6,12 +6,16 @@
 .categoryList .parentCategory{
 	width: 20%;
 	background-color: mistyrose;
-	text-align: center;
 }
-.parentCategory section {
+.parentCategory div {
 	height: 3rem;
-	padding: 10px;
+	text-align: center;
+	display: -webkit-flex;
+	align-items: center;
+	align-items: center;
 }
+
+
 .categoryList .childCategory{
 	width: 80%;
 	background-color: #FF0000;
