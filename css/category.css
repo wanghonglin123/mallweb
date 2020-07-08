@@ -1,0 +1,25 @@
+.categoryList {
+	width: 100%;
+	display: flex;
+	display: -webkit-flex;
+}
+.categoryList .parentCategory{
+	width: 20%;
+	background-color: mistyrose;
+	text-align: center;
+}
+.parentCategory section {
+	height: 3rem;
+	padding: 10px;
+}
+.categoryList .childCategory{
+	width: 80%;
+	background-color: #FF0000;
+}
+.childCategory .title {
+	display: flex;
+	height: 3rem;
+	display: -webkit-flex;
+	align-items: center;
+}
+© 2020 GitHub, Inc.
