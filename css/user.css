@@ -1,0 +1,17 @@
+header {
+	background-color: red;
+}
+.div1 {
+	height: 3rem;
+	justify-content: space-around;
+}
+.div2{
+	flex: 8;
+}
+.div3{
+	flex: 1;
+}
+.div1 img {
+	width: 70%;
+	height: 70%;
+}
