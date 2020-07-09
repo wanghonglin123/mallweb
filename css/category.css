@@ -5,7 +5,8 @@
 }
 .categoryList .parentCategory{
 	width: 20%;
-	background-color: mistyrose;
+	/* background-color: mistyrose; */
+	border-right: 1px solid black;
 }
 .parentCategory div {
 	height: 3rem;
@@ -18,12 +19,34 @@
 
 .categoryList .childCategory{
 	width: 80%;
-	background-color: #FF0000;
+	/* background-color: #FF0000; */
 }
 .childCategory .title {
 	display: flex;
 	height: 3rem;
 	display: -webkit-flex;
 	align-items: center;
+	text-align: center;
+}
+.childCategory .title .leimu {
+	width: 20%;
+}
+.childCategory .title .seeAll {
+	width: 75%;
+	text-align: right;
+}
+.childCategory .item {
+	display: -webkit-flex;
+	align-items: center;
+	text-align: center;
+}
+.childCategory .item div {
+	flex: 1;
+	font-size: 0.8rem;
+}
+.childCategory .item div img {
+	width: 70%;
+	height: 70%;
+
 }
 © 2020 GitHub, Inc.
