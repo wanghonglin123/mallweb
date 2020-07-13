@@ -1,5 +1,7 @@
 header {
-	background-color: red;
+	background-color: #DD6969;
+	color: white;
+	font-size: 0.9rem;
 }
 .div1 {
 	height: 3rem;
@@ -9,9 +11,15 @@ header {
 	flex: 8;
 }
 .div3{
-	flex: 1;
+	flex: 1.3;
 }
 .div1 img {
-	width: 70%;
-	height: 70%;
+	width: 50%;
+	height: 50%;
+}
+.div4 {
+	height: 2rem;
+}
+.div5 div div{
+	width: 50%;
 }
