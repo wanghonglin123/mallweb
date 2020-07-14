@@ -1,4 +1,6 @@
 .header .swrap{
+	position: fixed;
+	z-index: 999;
 	background-color: red;
 	height: 56.16px;
 	padding-top: 3px;
@@ -33,17 +35,17 @@
 	text-align: center;
 }
 .categoryList2 .swrap {
-	width: 100%;
-	display: flex;
-	display: -webkit-flex;
-	align-items: center;
+	width: 90%;
+	margin: auto;
+	align-items: flex-start;
 }
-.categoryList2 .swrap section {
+.categoryList2 .swrap div {
 	width: 20%;
 }
-.categoryList2 .swrap section img {
-	width: 100%;
-	height: 120px;
+.categoryList2 .swrap div img {
+	border-radius: 50%;
+	width: 50%;
+	height: 50%;
 }
 .categoryList2 .swrap section div {
 	padding-bottom: 10px;
@@ -78,9 +80,10 @@
 	text-align: center;
 }
 .userImg{
+		z-index: 9999;
         width: 16px;
         height:16px;
-        position: absolute;
+        position: fixed;
 		margin-left: 34%;
 		margin-top: 18px;
 }
