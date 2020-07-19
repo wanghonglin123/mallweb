@@ -1,7 +1,6 @@
 header {
-	height: 56.16px;
+	height: 56px;
 	justify-content: space-around;
-	border-bottom: 1px solid #E0E0E0;
 }
 header .search {
 	width: 70%;
@@ -26,7 +25,7 @@ header div input {
 	border: none;
 }
 .hotSearch {
-	color: #E0E0E0;
+	color: #F8F8F8;
 }
 .hotSearch .title {
 	height: 3rem;
@@ -48,11 +47,11 @@ header div input {
 	color: #000000;
 }
 .hotSearchData a div{
-	background-color: #E0E0E0;flex: 1;
+	background-color: #F8F8F8;;flex: 1;
 	margin: 10px;
 	margin-top: 0px;
 	margin-bottom: 10px;
-	border-radius: 2px;
+	border-radius: 10px;
 }
 .userImg{
         width: 30px;
