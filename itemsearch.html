@@ -12,218 +12,277 @@
 		<meta name="csrf-token" content="fbRYawoXHloXJA1RMLExadRTgO2lBvP0CtY3suOS">
 		<title>商品搜索页</title>
 		<link href="css/common.css" type="text/css" rel="stylesheet"/>
-		<link href="css/itemsearch.css" type="text/css" rel="stylesheet"/>
-		<link href="css/search.css" type="text/css" rel="stylesheet"/>
 	</head>
 	<body>
-		<div>
-			<div>
-				<header class="flex" style="background-color: red;">
-					<div class="search">
-						<i class="userImg">
-							<img src="img/10004.png" style="width:50%;height:40%;"/>
-						</i>
-						<input type="search" placeholder="请输入关键字" style="padding-left: 25px; background-color: white;"/>
-					</div>
-					<div class="searchButton flex" style="color: orangered;background-color: white;height: 57%;">
-						<div style="width: 100%;">
-							搜索
-						</div>
-						<div></div>
-					</div>
-				</header>
+		<div style="background-color: red;font-size: 12px;height: 50px" class="flex">
+			<div style="width: 90%; height: 30px;margin: auto;border-radius: 70px;background-color: white" class="flex">
+				<div style="width: 20px;margin-left: 10px">
+					<img src="img/10004.png" style="height: 100%;width: 100%;"/>
+				</div>
+				<div style="width: 80%;height: 100%">
+					<input type="search" style="width: 100%;height: 100%;border-radius: 70px;border: none;padding-left: 10px;outline: none" placeholder="请输入关键字">
+				</div>
+				<div style="background-color: #333333;height: 100%;width: 15%;border-radius: 0px 70px 70px 0px;color: white" class="flex">
+					<div style="flex: 1;margin: auto;text-align: center;font-size: 14px">搜索</div>
+				</div>
 			</div>
-			<div class="flex" style="justify-content: space-around;height: 40px; font-weight: 600; background-color: #E0E0E0;">
-				<section>淘宝</section>
-				<section>天猫</section>
-				<section>京东</section>
-				<section>拼多多</section>
+		</div>
+		<div style="background-color: white;font-size: 14px;height: 40px" class="flex">
+			<div class="flex" style="justify-content: space-around; background-color: white;margin: 0px;height: 40px;width: 80%;margin: auto">
+				<div style="font-weight: 800;">
+					<div>京东</div>
+					<div style="height: 2px;background-color: red;margin-top: 5px"></div>
+				</div>
+				<div>
+					<div>苏宁</div>
+					<div style="height: 1px;margin-top: 5px"></div>
+				</div>
+				<div>
+					<div>拼多多</div>
+					<div style="height: 1px;margin-top: 5px"></div>
+				</div>
+				<div>
+					<div>考拉</div>
+					<div style="height: 1px;margin-top: 5px"></div>
+				</div>
 			</div>
-			<div class="flex" style="font-size: 0.9rem;">
-				<section class="flex" style="height: 40px;">
-					<div style="width: 50%; text-align: right;">综合</div>
-					<div style="width: 50%;">
-						<img src="img/10005.png" style="width:20%;height:20%; margin-top: 10px; margin-left: 5px;"/>
+		</div>
+		<div style="background-color: white;font-size: 12px;height: 20px;width: 100%" class="flex">
+			<div class="flex" style="justify-content: space-around; background-color: white;margin: 0px;height: 20px;width: 100%;margin: auto">
+				<div style="font-weight: 800;">
+					<div class="flex">
+						<div>佣金比例</div>
+						<div style="width: 14px;height: 14px">
+							<img src="img/index.png" style="width: 100%;height: 100%;padding-left: 5px">
+						</div>
 					</div>
-				</section>
-				<section class="flex" style="height: 40px;">
-					<div style="width: 50%; text-align: right;">卷后价</div>
-					<div style="width: 50%;">
-						<img src="img/10005.png" style="width:20%;height:20%; margin-top: 10px; margin-left: 5px;"/>
+					<div style="height: 2px;background-color: red;margin-top: 5px"></div>
+				</div>
+				<div>
+					<div class="flex">
+						<div>佣金比例</div>
+						<div style="width: 14px;height: 14px">
+							<img src="img/index.png" style="width: 100%;height: 100%;padding-left: 5px">
+						</div>
 					</div>
-				</section>
-				<section class="flex" style="height: 40px; ">
-					<div style="width: 50%; text-align: right;">价格</div>
-					<div style="width: 50%;">
-						<img src="img/10005.png" style="width:20%;height:20%; margin-top: 10px; margin-left: 5px;"/>
+					<div style="height: 1px;margin-top: 5px"></div>
+				</div>
+				<div>
+					<div class="flex">
+						<div>销量 </div>
+						<div style="width: 14px;height: 14px">
+							<img src="img/index.png" style="width: 100%;height: 100%;padding-left: 5px">
+						</div>
 					</div>
-				</section>
-				<section class="flex" style="height: 40px; ">
-					<div style="width: 50%; text-align: right;">销量</div>
-					<div style="width: 50%;">
-						<img src="img/10005.png" style="width:20%;height:20%; margin-top: 10px; margin-left: 5px;"/>
+					<div style="height: 1px;margin-top: 5px"></div>
+				</div>
+				<div>
+					<div class="flex">
+						<div>价格</div>
+						<div style="width: 14px;height: 14px">
+							<img src="img/index.png" style="width: 100%;height: 100%;padding-left: 5px">
+						</div>
 					</div>
-				</section>
+					<div style="height: 1px;margin-top: 5px"></div>
+				</div>
 			</div>
-			<div class="flex itemsearchList" style="justify-content: space-around; margin-top: 10px;">
-				<section>
-					<div class="img">
-						<img src="img/O1CN01mL3EXq1CZYEgegKyL_!!95-0-lubanu.jpg" style=""/>
-					</div>
-					<div class="flex">
-						<div style="width: 20%;">
-							<img src="img/108_P_1536792341842.png" style="width: 100%;height: 100%;">
+		</div>
+		<div style="background-color: #F8F8F8;height: 10px;"></div>
+		<div style="height: 125px; justify-content: space-around;background-color: #F8F8F8;">
+			<div style="width: 96%; height: 100%;margin: auto; justify-content: space-around;background-color: white;font-size: 11px;" class="flex">
+				<div style="width: 30%;height: 88%;">
+					<img src="img/O1CN01mL3EXq1CZYEgegKyL_!!95-0-lubanu.jpg" style="width: 100%;height: 100%;border-radius: 5px;"/>
+				</div>
+				<div style="width: 64%;display: flex;flex-direction: column;height: 88%; justify-content: space-around;">
+					<div style="font-weight: 900;">
+						<div><span style="border: 1px; background-color: red;border-radius: 5px;color: white;">&nbsp;京东&nbsp;</span>&nbsp;&nbsp;击打了时间到了静安寺了解击打了时间到了静安寺了解
 						</div>
-						<span>商品名称商品名</span>
 					</div>
-					<div class="flex">
-						<div style="color: #FF0000; width: 50%;">￥16.8</div>
-						<div style="text-align: right; width: 50%;">5元卷</div>
-					</div>
-					<div class="flex">
-						<div style="color: #FF0000; width: 50%;"">￥16.8</div>
-						<div style="text-align: right; width: 50%;">已售999</div>
-					</div>
-				</section>
-				<section>
-					<div class="img">
-						<img src="img/O1CN01mL3EXq1CZYEgegKyL_!!95-0-lubanu.jpg" style=""/>
-					</div>
-					<div class="flex">
-						<div style="width: 20%;">
-							<img src="img/108_P_1536792341842.png" style="width: 100%;height: 100%;">
+					<div style="color: #686868;">华为旗靓店</div>
+					<div>
+						<div style="height: 80%;border: 1px; background-color: #FF0066;width: 30%;color: white;text-align: center;border-radius: 5px;">
+							<div style="height: 3px;"></div>
+							210元卷
+							<div style="height: 5px;"></div>
 						</div>
-						<span>商品名称商品名</span>
 					</div>
-					<div class="flex">
-						<div style="color: #FF0000; width: 50%;">￥16.8</div>
-						<div style="text-align: right; width: 50%;">5元卷</div>
+					<div>
+						<div class="flex">
+							<div style="width: 50%;">
+								<span style="font-size: 17px;color: #FF0000;">￥48.80</span>
+								<span>￥39.80</span>
+							</div>
+							<div style="width: 50%; text-align: right;">
+								月销量：6570
+							</div>
+						</div>
 					</div>
-					<div class="flex">
-						<div style="color: #FF0000; width: 50%;"">￥16.8</div>
-						<div style="text-align: right; width: 50%;">已售999</div>
-					</div>
-				</section>
+				</div>
 			</div>
-			<div class="flex itemsearchList" style="justify-content: space-around; margin-top: 10px;">
-				<section>
-					<div class="img">
-						<img src="img/O1CN01mL3EXq1CZYEgegKyL_!!95-0-lubanu.jpg" style=""/>
-					</div>
-					<div class="flex">
-						<div style="width: 20%;">
-							<img src="img/108_P_1536792341842.png" style="width: 100%;height: 100%;">
+		</div>
+		<div style="background-color: #F8F8F8;height: 5px;"></div>
+		<div style="height: 125px; justify-content: space-around;background-color: #F8F8F8;">
+			<div style="width: 96%; height: 100%;margin: auto; justify-content: space-around;background-color: white;font-size: 11px;" class="flex">
+				<div style="width: 30%;height: 88%;">
+					<img src="img/O1CN01mL3EXq1CZYEgegKyL_!!95-0-lubanu.jpg" style="width: 100%;height: 100%;border-radius: 5px;"/>
+				</div>
+				<div style="width: 64%;display: flex;flex-direction: column;height: 88%; justify-content: space-around;">
+					<div style="font-weight: 900;">
+						<div><span style="border: 1px; background-color: red;border-radius: 5px;color: white;">&nbsp;京东&nbsp;</span>&nbsp;&nbsp;击打了时间到了静安寺了解击打了时间到了静安寺了解
 						</div>
-						<span>商品名称商品名</span>
 					</div>
-					<div class="flex">
-						<div style="color: #FF0000; width: 50%;">￥16.8</div>
-						<div style="text-align: right; width: 50%;">5元卷</div>
-					</div>
-					<div class="flex">
-						<div style="color: #FF0000; width: 50%;"">￥16.8</div>
-						<div style="text-align: right; width: 50%;">已售999</div>
-					</div>
-				</section>
-				<section>
-					<div class="img">
-						<img src="img/O1CN01mL3EXq1CZYEgegKyL_!!95-0-lubanu.jpg" style=""/>
-					</div>
-					<div class="flex">
-						<div style="width: 20%;">
-							<img src="img/108_P_1536792341842.png" style="width: 100%;height: 100%;">
+					<div style="color: #686868;">华为旗靓店</div>
+					<div>
+						<div style="height: 80%;border: 1px; background-color: #FF0066;width: 30%;color: white;text-align: center;border-radius: 5px;">
+							<div style="height: 3px;"></div>
+							210元卷
+							<div style="height: 5px;"></div>
 						</div>
-						<span>商品名称商品名</span>
 					</div>
-					<div class="flex">
-						<div style="color: #FF0000; width: 50%;">￥16.8</div>
-						<div style="text-align: right; width: 50%;">5元卷</div>
+					<div>
+						<div class="flex">
+							<div style="width: 50%;">
+								<span style="font-size: 17px;color: #FF0000;">￥48.80</span>
+								<span>￥39.80</span>
+							</div>
+							<div style="width: 50%; text-align: right;">
+								月销量：6570
+							</div>
+						</div>
 					</div>
-					<div class="flex">
-						<div style="color: #FF0000; width: 50%;"">￥16.8</div>
-						<div style="text-align: right; width: 50%;">已售999</div>
-					</div>
-				</section>
+				</div>
 			</div>
-			<div class="flex itemsearchList" style="justify-content: space-around; margin-top: 10px;">
-				<section>
-					<div class="img">
-						<img src="img/O1CN01mL3EXq1CZYEgegKyL_!!95-0-lubanu.jpg" style=""/>
-					</div>
-					<div class="flex">
-						<div style="width: 20%;">
-							<img src="img/108_P_1536792341842.png" style="width: 100%;height: 100%;">
+		</div>
+		<div style="background-color: #F8F8F8;height: 5px;"></div>
+		<div style="height: 125px; justify-content: space-around;background-color: #F8F8F8;">
+			<div style="width: 96%; height: 100%;margin: auto; justify-content: space-around;background-color: white;font-size: 11px;" class="flex">
+				<div style="width: 30%;height: 88%;">
+					<img src="img/O1CN01mL3EXq1CZYEgegKyL_!!95-0-lubanu.jpg" style="width: 100%;height: 100%;border-radius: 5px;"/>
+				</div>
+				<div style="width: 64%;display: flex;flex-direction: column;height: 88%; justify-content: space-around;">
+					<div style="font-weight: 900;">
+						<div><span style="border: 1px; background-color: red;border-radius: 5px;color: white;">&nbsp;京东&nbsp;</span>&nbsp;&nbsp;击打了时间到了静安寺了解击打了时间到了静安寺了解
 						</div>
-						<span>商品名称商品名</span>
 					</div>
-					<div class="flex">
-						<div style="color: #FF0000; width: 50%;">￥16.8</div>
-						<div style="text-align: right; width: 50%;">5元卷</div>
-					</div>
-					<div class="flex">
-						<div style="color: #FF0000; width: 50%;"">￥16.8</div>
-						<div style="text-align: right; width: 50%;">已售999</div>
-					</div>
-				</section>
-				<section>
-					<div class="img">
-						<img src="img/O1CN01mL3EXq1CZYEgegKyL_!!95-0-lubanu.jpg" style=""/>
-					</div>
-					<div class="flex">
-						<div style="width: 20%;">
-							<img src="img/108_P_1536792341842.png" style="width: 100%;height: 100%;">
+					<div style="color: #686868;">华为旗靓店</div>
+					<div>
+						<div style="height: 80%;border: 1px; background-color: #FF0066;width: 30%;color: white;text-align: center;border-radius: 5px;">
+							<div style="height: 3px;"></div>
+							210元卷
+							<div style="height: 5px;"></div>
 						</div>
-						<span>商品名称商品名</span>
 					</div>
-					<div class="flex">
-						<div style="color: #FF0000; width: 50%;">￥16.8</div>
-						<div style="text-align: right; width: 50%;">5元卷</div>
+					<div>
+						<div class="flex">
+							<div style="width: 50%;">
+								<span style="font-size: 17px;color: #FF0000;">￥48.80</span>
+								<span>￥39.80</span>
+							</div>
+							<div style="width: 50%; text-align: right;">
+								月销量：6570
+							</div>
+						</div>
 					</div>
-					<div class="flex">
-						<div style="color: #FF0000; width: 50%;"">￥16.8</div>
-						<div style="text-align: right; width: 50%;">已售999</div>
-					</div>
-				</section>
+				</div>
 			</div>
-			<div class="flex itemsearchList" style="justify-content: space-around; margin-top: 10px;">
-				<section>
-					<div class="img">
-						<img src="img/O1CN01mL3EXq1CZYEgegKyL_!!95-0-lubanu.jpg" style=""/>
-					</div>
-					<div class="flex">
-						<div style="width: 20%;">
-							<img src="img/108_P_1536792341842.png" style="width: 100%;height: 100%;">
+		</div>
+		<div style="background-color: #F8F8F8;height: 5px;"></div>
+		<div style="height: 125px; justify-content: space-around;background-color: #F8F8F8;">
+			<div style="width: 96%; height: 100%;margin: auto; justify-content: space-around;background-color: white;font-size: 11px;" class="flex">
+				<div style="width: 30%;height: 88%;">
+					<img src="img/O1CN01mL3EXq1CZYEgegKyL_!!95-0-lubanu.jpg" style="width: 100%;height: 100%;border-radius: 5px;"/>
+				</div>
+				<div style="width: 64%;display: flex;flex-direction: column;height: 88%; justify-content: space-around;">
+					<div style="font-weight: 900;">
+						<div><span style="border: 1px; background-color: red;border-radius: 5px;color: white;">&nbsp;京东&nbsp;</span>&nbsp;&nbsp;击打了时间到了静安寺了解击打了时间到了静安寺了解
 						</div>
-						<span>商品名称商品名</span>
 					</div>
-					<div class="flex">
-						<div style="color: #FF0000; width: 50%;">￥16.8</div>
-						<div style="text-align: right; width: 50%;">5元卷</div>
-					</div>
-					<div class="flex">
-						<div style="color: #FF0000; width: 50%;"">￥16.8</div>
-						<div style="text-align: right; width: 50%;">已售999</div>
-					</div>
-				</section>
-				<section>
-					<div class="img">
-						<img src="img/O1CN01mL3EXq1CZYEgegKyL_!!95-0-lubanu.jpg" style=""/>
-					</div>
-					<div class="flex">
-						<div style="width: 20%;">
-							<img src="img/108_P_1536792341842.png" style="width: 100%;height: 100%;">
+					<div style="color: #686868;">华为旗靓店</div>
+					<div>
+						<div style="height: 80%;border: 1px; background-color: #FF0066;width: 30%;color: white;text-align: center;border-radius: 5px;">
+							<div style="height: 3px;"></div>
+							210元卷
+							<div style="height: 5px;"></div>
 						</div>
-						<span>商品名称商品名</span>
 					</div>
-					<div class="flex">
-						<div style="color: #FF0000; width: 50%;">￥16.8</div>
-						<div style="text-align: right; width: 50%;">5元卷</div>
+					<div>
+						<div class="flex">
+							<div style="width: 50%;">
+								<span style="font-size: 17px;color: #FF0000;">￥48.80</span>
+								<span>￥39.80</span>
+							</div>
+							<div style="width: 50%; text-align: right;">
+								月销量：6570
+							</div>
+						</div>
 					</div>
-					<div class="flex">
-						<div style="color: #FF0000; width: 50%;"">￥16.8</div>
-						<div style="text-align: right; width: 50%;">已售999</div>
+				</div>
+			</div>
+		</div>
+		<div style="background-color: #F8F8F8;height: 5px;"></div>
+		<div style="height: 125px; justify-content: space-around;background-color: #F8F8F8;">
+			<div style="width: 96%; height: 100%;margin: auto; justify-content: space-around;background-color: white;font-size: 11px;" class="flex">
+				<div style="width: 30%;height: 88%;">
+					<img src="img/O1CN01mL3EXq1CZYEgegKyL_!!95-0-lubanu.jpg" style="width: 100%;height: 100%;border-radius: 5px;"/>
+				</div>
+				<div style="width: 64%;display: flex;flex-direction: column;height: 88%; justify-content: space-around;">
+					<div style="font-weight: 900;">
+						<div><span style="border: 1px; background-color: red;border-radius: 5px;color: white;">&nbsp;京东&nbsp;</span>&nbsp;&nbsp;击打了时间到了静安寺了解击打了时间到了静安寺了解
+						</div>
 					</div>
-				</section>
+					<div style="color: #686868;">华为旗靓店</div>
+					<div>
+						<div style="height: 80%;border: 1px; background-color: #FF0066;width: 30%;color: white;text-align: center;border-radius: 5px;">
+							<div style="height: 3px;"></div>
+							210元卷
+							<div style="height: 5px;"></div>
+						</div>
+					</div>
+					<div>
+						<div class="flex">
+							<div style="width: 50%;">
+								<span style="font-size: 17px;color: #FF0000;">￥48.80</span>
+								<span>￥39.80</span>
+							</div>
+							<div style="width: 50%; text-align: right;">
+								月销量：6570
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="background-color: #F8F8F8;height: 5px;"></div>
+		<div style="height: 125px; justify-content: space-around;background-color: #F8F8F8;">
+			<div style="width: 96%; height: 100%;margin: auto; justify-content: space-around;background-color: white;font-size: 11px;" class="flex">
+				<div style="width: 30%;height: 88%;">
+					<img src="img/O1CN01mL3EXq1CZYEgegKyL_!!95-0-lubanu.jpg" style="width: 100%;height: 100%;border-radius: 5px;"/>
+				</div>
+				<div style="width: 64%;display: flex;flex-direction: column;height: 88%; justify-content: space-around;">
+					<div style="font-weight: 900;">
+						<div><span style="border: 1px; background-color: red;border-radius: 5px;color: white;">&nbsp;京东&nbsp;</span>&nbsp;&nbsp;击打了时间到了静安寺了解击打了时间到了静安寺了解
+						</div>
+					</div>
+					<div style="color: #686868;">华为旗靓店</div>
+					<div>
+						<div style="height: 80%;border: 1px; background-color: #FF0066;width: 30%;color: white;text-align: center;border-radius: 5px;">
+							<div style="height: 3px;"></div>
+							210元卷
+							<div style="height: 5px;"></div>
+						</div>
+					</div>
+					<div>
+						<div class="flex">
+							<div style="width: 50%;">
+								<span style="font-size: 17px;color: #FF0000;">￥48.80</span>
+								<span>￥39.80</span>
+							</div>
+							<div style="width: 50%; text-align: right;">
+								月销量：6570
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
